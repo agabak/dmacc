@@ -14,8 +14,14 @@ body {
   }
 
   .image {
-    width: 320px;
+    height: 100px;
     padding: 10px;
-    border: 5px solid gray;
-    margin: 0;
+    border: 2px dotted blue;
+    margin: 10px;
+  }
+
+  h3 {
+      padding: 5px;
+      margin:  25px;
+      border-top:3px solid black;
   }
