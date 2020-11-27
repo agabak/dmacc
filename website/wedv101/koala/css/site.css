@@ -1,0 +1,21 @@
+body {
+    background-color: lightblue;
+    font-family: 'Castoro', serif;
+    padding-left: 20px;
+  }
+  
+  h1 {
+    color: navy;
+    margin-left: 20px;
+  }
+
+  nav li {
+    display: inline;
+  }
+
+  .image {
+    width: 320px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
+  }
