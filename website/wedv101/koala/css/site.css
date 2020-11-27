@@ -1,17 +1,79 @@
 body {
-    background-color: lightblue;
+    background-color: beige;
     font-family: 'Castoro', serif;
     max-width:fit-content;
     margin: auto;
   }
+
+  
+ /*  The universal selector is used to apply to all. Some browsers, bu default, add a margin and padding value. This is undesirable in our layout. The margin and properties value of 0 then "zeros out" any default browser value.*/
+            
+ *  { 
+  margin:0;
+  padding:0;
+  }
+
+  
+
+
+  /*Structure*/
+  
+  /* the container ID is necessary as a container for all elements. We use an id as there is no semantic element for a container. Like a class, you must call the ID in a div in the html.*/
+
+  #container
+      {
+      width:930px;
+      border-width:1px;
+      margin:20px auto;
+      background-color: white;
+      border:2px solid black;
+      border-radius: 25px;
+      box-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
+      }
+
+  header  {
+      padding: 10px;
+      background-color: yellow;
+      border-top-left-radius: 25px;
+      border-top-right-radius: 25px;
+
+      }
+      
+      
+  nav  {
+      padding: 10px;
+      color:white;
+      background-color: black;
+      }
+
+
+  main
+      {
+      padding: 15px;
+      background-color:aqua;
+      }
+
+
+  footer  {
+      color:white;
+      padding: 10px;
+      background-color: green;
+      text-align: center;
+      border-bottom-left-radius: 24px;
+      border-bottom-right-radius: 24px;
+      }
   
   h1 {
     color: navy;
     margin-left: 20px;
   }
 
-  nav li {
+ nav li {
     display: inline;
+  }
+
+  ul li {
+    list-style-type: none;
   }
 
   .image {
@@ -24,8 +86,8 @@ body {
   h3 {
       padding: 5px;
       margin:  25px;
-      border-top:3px solid black;
-  }
+      
+    }
 
 /* unvisited link */
 a {
