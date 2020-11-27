@@ -34,8 +34,29 @@
         </nav>
 
         <main>  
-           <form>
-
+            <form method="post" action="form_response_basic.php">
+            <legend>Example Form</legend>
+  
+            <p>
+                <label for="first_name">First Name:</label> 
+              <input type="text" name="first_name" id="first_name" />
+            </p>
+            
+            <p>
+                <label for="last_name">Last Name:</label> 
+              <input type="text" name="last_name" id="last_name" />
+            </p>
+            
+            <p>
+                <label for="school_name">School Name:</label> 
+              <input type="text" name="school_name" id="school_name" />
+            </p>
+            
+            <p>
+              <input type="submit" name="button" id="button" value="Submit" />
+              <input type="reset" name="button2" id="button2" value="Reset" />
+            </p>
+            
            </form>
         </main>
          <p><a href="../../../index.html">Go back to  main page</a></p>
