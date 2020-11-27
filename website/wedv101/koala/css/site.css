@@ -1,7 +1,8 @@
 body {
     background-color: lightblue;
     font-family: 'Castoro', serif;
-    padding-left: 20px;
+    max-width:fit-content;
+    margin: auto;
   }
   
   h1 {
