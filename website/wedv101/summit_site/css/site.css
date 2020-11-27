@@ -1,0 +1,63 @@
+
+body {
+    background-color: lightblue;
+    max-width:fit-content;
+    margin: auto;
+    font-family: 'Texturina', serif;
+}
+
+.banner {
+    color: blue;
+    border-bottom: 3px solid black;
+    border-top: 3px solid black;
+}
+
+.welcome::first-letter {
+    color: yellow;
+    font-size: xx-large;
+}
+
+nav {
+    border-bottom: 3px solid black;
+}
+nav li {
+    display: inline;
+    text-decoration: none;
+    padding: 10px
+}
+.about-image {
+    padding-right: 10px; 
+    margin: 0px; 
+    float: left;
+     height:100px
+}
+h2::first-line {
+    border-bottom: 3px solid black;
+}
+/* unvisited link */
+a {
+    text-decoration: none;
+ }
+ a:link {
+     color: red;
+   }
+   
+   /* visited link */
+   a:visited {
+     color: green;
+   }
+   
+   /* mouse over link */
+   a:hover {
+     color: hotpink;
+   }
+   
+   /* selected link */
+   a:active {
+     color: blue;
+   }
+ 
+   .pa::first-letter {
+     color: #ff0000;
+     font-size: xx-large;
+   }
