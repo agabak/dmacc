@@ -1,157 +1,171 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Koala Bear NIC</title>
-        <meta charset="UTF-8">
-        <meta name="author" content="Agaba Kabunga">
-        <!--
+
+<head>
+  <title>Koala Bear NIC</title>
+  <meta charset="UTF-8">
+  <meta name="author" content="Agaba Kabunga">
+  <!--
             Author: Agaba Kabunga
             Date: 9/12/202
         -->
-        <meta name="description" content="Home page for koala Bear National Information center">
-        <meta name="keyword" content="koala, bear, Australia, National Bear koala center">
-        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Castoro&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="css/site.css">
-        <style>
-          * {
-              box-sizing: border-box;
-              margin:0;
-              padding:0;
-              }
-            main {
-              background-color: transparent;
-            }
-                  
-          form  {
-                  background-color: lightgray;
-                  width: 980px;
-                  margin: 5px auto;
-                  padding: 10px;
-                  border: 2px solid black;
-                  border-radius: 15px;
-                          }
-          legend  {
-                  width: 100%;
-                  border-bottom: 1px dotted purple;
-                  padding-bottom: 5px;
-                  margin-bottom: 15px;
-                  font-size:1.3em;
-                  }
-                  
-          fieldset  {
-                      width: 25em;
-                      margin: 20px;
-                      border:hidden;
-                      }
-                      
-          fieldset div  {
-                          margin: 5px 0;
-                          }
-                          
-                          
-          input, select, textarea  {
-                          font-size: 1.1em;
-                          padding: 2px 5px 4px;
-                          border-radius: 5px;
-                          margin-top:5px;
-                                  }
-                                  
-          label  {
-                  width: 10em;
-                  text-align: right;
-                  padding-right: 0.5em;
-                  }
-                  
-                  
-          input[type="checkbox"], input[type="radio"] {
-            width: auto;
-            margin-left: 10em;
-          }
-          
-          input[type="checkbox"] ~ label, input[type="radio"] ~ label {
-            width: auto;
-            text-align: left;
-            padding-left: 0.4em;
-          }
-          
-                  
-          input[type=submit], input[type=reset] {
-                                       color:white;
-                                       background-color: black;
-                                       border-radius: 200px;
-                                       padding: 6px;
-                                       width: 100px;
-                                       margin-right: 30px;
-                                          }
-                                          
-          input[type=submit]  {
-                              margin-left: 25px;
-                              }
-      
-      </style>
-    </head>
-    <body>
-        
-        <header>
-             <img src="images/koala_banner.jpg" alt="koala banner image"> 
-             <h1>Koala Bear National Information Center</h1>
-        </header>
+  <meta name="description" content="Home page for koala Bear National Information center">
+  <meta name="keyword" content="koala, bear, Australia, National Bear koala center">
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Castoro&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/site.css">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
 
-        <nav>
-            <ul>
-                <li><a href="index.html">Home |</a></li>
-                <li><a href="faq.html">FAQ |</a></li>
-                <li><a href="save_koalas.html">Save Koalas |</a></li>
-                <li><a href="image_gallery.html">Gallery |</a></li>
-                <li>Adopt | </li>
-                <li><a href="contact_us.html">Contact Us</a></li>
-            </ul>
-        </nav>
+    .flex-container {
+      width: 90%;
+      margin: 0 auto;
+    }
 
-        <main>  
-            <form method="post" action="form_response_basic.php">
-            <legend>Contact us</legend>
-  
-            <p>
-                <label for="first_name">First Name:</label> 
-              <input type="text" name="first_name" id="first_name" />
-            </p>
-            
-            <p>
-                <label for="last_name">Last Name:</label> 
-              <input type="text" name="last_name" id="last_name" />
-            </p>
-            
-            <p>
-              <label for="school_name">Phone number:</label> 
-              <input type="text" name="phone_number" id="phone_number" />
-            </p>
-            <p>
-              <label for="message">Message:</label>
-              <textarea name="message" id="message" rows="5" cols="50"></textarea>
-            </p>
-            
-            <p>
-              <input type="submit" name="button" id="button" value="Submit" />
-              <input type="reset" name="button2" id="button2" value="Reset" />
-            </p>
-            
-           </form>
-        </main>
-         <p><a href="../../../index.html">Go back to  main page</a></p>
-        <footer>
-            <i class="fas fa-cloud"></i>
-            <i class="fas fa-heart"></i>
-            <i class="fas fa-car"></i>
-            <i class="fas fa-file"></i>
-            <i class="fas fa-bars"></i>
-             <p>&#169; 2018 All rights reserved. Australian Koala Foundation</p> 
-             <a href="http://www.nlbrownii.org/Koala_Site/index.html">
-                <img src="images/koala_logo.svg" height="100" width="100">
-             </a>
-        </footer>
+    main {
+      background-color: transparent;
+    }
+
+    form {
+      background-color: lightsteelblue;
+      width: 100%;
+      max-width: 990x;
+      padding: 1.2em;
+      margin: auto;
+      border: thin solid black;
+      border-radius: 10px;
+    }
+
+    legend {
+      width: 100%;
+      border-bottom: 1px dotted purple;
+      padding-bottom: 5px;
+      margin-bottom: 15px;
+      font-size: 1.3em;
+    }
+
+    fieldset {
+      width: 25em;
+      margin: 20px;
+      border: hidden;
+    }
+
+    fieldset div {
+      margin: 5px 0;
+    }
+
+
+    input,
+    select,
+    textarea {
+      font-size: 1.1em;
+      padding: 2px 5px 4px;
+      border-radius: 5px;
+      margin-top: 5px;
+    }
+
+    label {
+      width: 10em;
+      text-align: right;
+      padding-right: 0.5em;
+    }
+
+
+    input[type="checkbox"],
+    input[type="radio"] {
+      width: auto;
+      margin-left: 10em;
+    }
+
+    input[type="checkbox"]~label,
+    input[type="radio"]~label {
+      width: auto;
+      text-align: left;
+      padding-left: 0.4em;
+    }
+
+
+    input[type=submit],
+    input[type=reset] {
+      color: white;
+      background-color: black;
+      border-radius: 200px;
+      padding: 6px;
+      width: 100px;
+      margin-right: 30px;
+    }
+
+    input[type=submit] {
+      margin-left: 25px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <img src="images/koala_banner.jpg" alt="koala banner image">
+    <h1>Koala Bear National Information Center</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home |</a></li>
+      <li><a href="faq.html">FAQ |</a></li>
+      <li><a href="save_koalas.html">Save Koalas |</a></li>
+      <li><a href="image_gallery.html">Gallery |</a></li>
+      <li>Adopt | </li>
+      <li><a href="contact_us.html">Contact Us</a></li>
+    </ul>
+  </nav>
+  <div class="flex-container">
+    <main>
+      <form method="post" action="form_response_basic.php">
+        <legend>Contact us</legend>
+
+        <p>
+          <label for="first_name">First Name:</label>
+          <input type="text" name="first_name" id="first_name" />
+        </p>
+
+        <p>
+          <label for="last_name">Last Name:</label>
+          <input type="text" name="last_name" id="last_name" />
+        </p>
+
+        <p>
+          <label for="school_name">Phone number:</label>
+          <input type="text" name="phone_number" id="phone_number" />
+        </p>
+        <p>
+          <label for="message">Message:</label>
+          <textarea name="message" id="message" rows="5" cols="50"></textarea>
+        </p>
+
+        <p>
+          <input type="submit" name="button" id="button" value="Submit" />
+          <input type="reset" name="button2" id="button2" value="Reset" />
+        </p>
+
+      </form>
+    </main>
+  </div>
+  <p><a href="../../../index.html">Go back to main page</a></p>
+  <footer>
+    <i class="fas fa-cloud"></i>
+    <i class="fas fa-heart"></i>
+    <i class="fas fa-car"></i>
+    <i class="fas fa-file"></i>
+    <i class="fas fa-bars"></i>
+    <p>&#169; 2018 All rights reserved. Australian Koala Foundation</p>
+    <a href="http://www.nlbrownii.org/Koala_Site/index.html">
+      <img src="images/koala_logo.svg" height="100" width="100">
+    </a>
+  </footer>
 </body>
-</html>
 
+</html>

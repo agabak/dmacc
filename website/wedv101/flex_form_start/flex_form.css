@@ -1,0 +1,50 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.flex-container  {
+				
+				width:90%;
+				margin:0 auto;}
+				
+form {		
+			background-color:lightsteelblue;
+			width:90%;
+			max-width:800px;
+			padding:1.2em;
+			margin:auto;
+			border:thin solid black;
+			border-radius:10px;
+		}
+
+.form-box{
+				margin-bottom:0.5em;
+				}
+				
+.form-box label {	
+  					text-align:right;
+  					margin-right:0.5em;
+  				}	
+  				
+
+  					  
+
+
+
+				
+.form-box-row div {
+				
+				margin:0.5em auto;
+				}			  
+
+
+.form-box-row div input{
+  					margin-left:1.5em;
+  					flex:1;}
+	
+textarea  {
+			width:60%;
+			height:100px;
+						
+			}
+	
+	

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  
+  <!-- Get started by adding the necessary bootstrap components in the head section: the link to the stylesheet, the viewport meta.Then add the script code in the bottom just before the close of the body. (see www.getbootstrap.com). We will use our own css for styling--> 
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+  
+<style>
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	}
+	footer {
+			padding:0.5em;
+			}
+			
+/* Bootstrap's row styling has a negative margin value. This pushes the column outside the row boundries.The fix is to remove the margin values from the row. Undo the comments to activate the row class*/
+
+
+.row {
+		margin-left:0;
+		margin-right:0;
+		}
+		
+
+
+
+
+</style>
+  
+</head>
+<body>
+
+
+<!-- There are two Bootstrap container classes: container is fixed and centered. fluic-container fills the entire page. Play around ithe different containers.-->
+<div class="container bg-light">
+
+	<header>
+		<h1>WDV101 Intro HTML and CSS</h1>
+		<h2>Unit-5 Bootstrap Framework</h2>
+		<p>The following are bootstrap buttons</p>
+
+	</header>
+
+		
+
+	<div class="row"><!-- a row holds multiple columns-->
+
+  <!-- Play around with multiple coluns and multipl2 sizes. Start with two column of equial sizes col-sm-6. Then make the columns different widths.
+  
+  Finally remove the comments in the last div to work with three columns.-->
+  
+    <div class="col-sm-6 bg-primary text-light">
+      <h3>Column 1</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+    <div class="col-sm-6 bg-warning text-dark">
+      <h3>Column 2</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+    
+    <!--
+    <div class="col bg-info text-light">
+      <h3>Column 3</h3>        
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+    
+    -->
+</div><!--close the row div here-->
+
+
+
+<footer class="bg-dark text-light">
+	<p>Footer content here.
+</footer>
+
+</div><!--close the container div here-->
+
+<!--add the bootstrap jquery script here-->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
