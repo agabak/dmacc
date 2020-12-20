@@ -23,5 +23,25 @@ const fib = (n, memo = {}) => {
     memo[n] = fib(n - 1, memo) +  fib(n - 2, memo);
     return memo[n];
 }
-console.log(fib(50));
 
+
+const fibn = (n, memo = {}) => {
+ if(n in memo) return memo[n];
+ if(n <= 2) return 1;
+ memo[n] = fibn(n - 1, memo) + fibn(n - 2, memo);
+ return memo[n];
+}
+console.log(fibn(1000));
+
+
+
+// How to  remember fin theory
+
+const finM = (n, memo = {}) => {
+    if(n in memo) return memo[n];
+    if(n <= 2) return 1;
+    memo[n] = finM(n-1, memo) + finM(n-2, memo);
+    return memo[n];
+}
+
+console.log(finM(7), 'Memory');
